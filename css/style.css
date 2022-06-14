@@ -44,7 +44,7 @@ article {
 }
 
 .ofertas article {
-    width: 24%;
+    width: 20%;
 }
 
 article img {
@@ -60,7 +60,8 @@ h1 {
 
 .ofertas {
     display: flex;
-    flex-flow: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tofertas {
