@@ -1,0 +1,309 @@
+header {
+    background-color: #fbbc02;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 70px;
+    padding-right: 40px;
+    border-top: 3px solid rgb(83, 75, 75);
+    height: 65px;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color .2 forwards;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+.opiniones {
+    float: right; 
+}
+
+.ingreso {
+    float: right;
+    padding-left: 30px;
+}
+
+.cuenta {
+    float: right;
+    padding-right: 3px;
+}
+
+article {
+    border: #585347;
+    border: 10px;
+    border: solid;
+    border-radius: 15px;
+}
+
+.ofertas article {
+    width: 24%;
+}
+
+article img {
+    display: flex;
+    width: 90%;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.ofertas {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.tofertas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    color: white;
+    background-color: rgb(40, 126, 184);
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 3px;
+    transition: background-color .2s forwards;
+}
+
+.boton:hover {
+    background-color: rgb(16, 150, 16);
+}
+
+.smartphone {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.tvsmart {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.tdestacados {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.destacados {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.form img {
+    width: 50%;
+    display: block;
+}
+
+.registrar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(88, 2, 88);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    height: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding-left: 5px;
+    justify-content: space-between;
+}
+
+.reglab {
+    width: 60%;
+    padding-left: 50px;
+    display: inline;
+    text-align: start;
+}
+
+.reginputs {
+    width: 40%;
+    display: inline;
+}
+
+input {
+    width: 100%;
+    padding: 1px;
+}
+
+.modal-body {
+    background-color: #fbbc02;
+}
+
+.modal-dialog {
+    width: 50%;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer input {
+    height: 35px;
+}
+
+.email {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.email input {
+    width: 80%;
+}
+
+.seguinos {
+    border-right: #615d55 solid;
+}
+
+.otrosservicios {
+    border-right: #615d55 solid;
+}
+
+footer {
+    border-top: #615d55 solid;
+}
+
+.ofertas article p {
+    width: 80%;
+}
+
+.ofertas article .boton {
+    width: 100%;
+}
+
+.cafetera {
+    margin-right: 10px;
+}
+
+.macbook {
+    margin-right: 5px;
+}
+
+.tv {
+    margin-left: 5px;
+}
+
+.samsung {
+    margin-left: 10px;
+}
+
+.smartphone {
+    margin-right: 50px;
+}
+
+.tvsmart {
+    margin-left: 50px;
+}
+
+@media all and (min-width: 1500px) {
+    a {
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 26px;
+    }
+
+    .registrar {
+        font-size: 26px;
+    }
+    
+    article p {
+        font-size: 26px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+}
+
+@media all and (min-width: 900px) and (max-width: 1500px) {
+    a {
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    .registrar {
+        font-size: 20px;
+    }
+    
+    article p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 899px) {
+    a {
+        font-size: 8px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .registrar {
+        font-size: 12px;
+    }
+    
+    article p {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+}
