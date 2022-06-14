@@ -230,6 +230,10 @@ footer {
     margin-left: 50px;
 }
 
+.ofertas col {
+    width: 20%;
+}
+
 @media all and (min-width: 1500px) {
     a {
         font-size: 22px;
