@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mercado Liebre</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+        <link rel="icon" sizes="64x64" href="img/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <img src="img/mercado-liebre.png" height="35px"> 
+            <a class="opiniones" href=""><i class='bx bxs-hand-right'></i>Todos las opiniones en un solo lugar.</a> <br>
+            <h1></h1>
+            <a class="prod" href="">Todos los productos</a>
+            <a class="ingreso" data-toggle="modal" data-target="#registro">Ingresa<i class='bx bx-exit'></i></a>
+            <div class="modal fade" id="registro">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form">
+                                <img src="img/mercado-liebre.png">
+                                <h1>Registro</h1> <br>
+                                <form>
+                                    <div class="reglab">
+                                        <strong><label>Nombre: </label></strong> <br> <br>
+                                        <strong><label>Email: </label></strong> <br> <br>
+                                        <strong><label>Contraseña: </label></strong> <br> <br>
+                                        <input class="registrar" type="submit" value="Registrar">
+                                    </div>    
+                                    <div class="reginputs">
+                                        <input type="text" name="nombre"> <br> <br>
+                                        <input type="email" name="email"> <br> <br> <br>
+                                        <input type="password" name="contraseña">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="cuenta" href="">Crea tu cuenta<i class='bx bx-id-card'></i></a>
+        </header>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner1.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner2.jpg" class="d-block w-100">
+                </div>
+            </div> 
+        </div> <br> <br>
+
+        <main class="container">
+            <h1>Disfruta nuestras ofertas</h1> <br>
+            <section class="ofertas">
+                
+                <article class="col cafetera">
+                    <img src="img/productos/img-cafetera-moulinex.jpg">
+                    <div class="tofertas">
+                        <strong><p>Cafetera Moulinex</p></strong>
+                        <a href=""><p class="boton">Comprar</p></a>
+                    </div>
+                </article>
+                <article class="col macbook">
+                    <img src="img/productos/img-macbook-pro-2019.jpg">
+                    <div class="tofertas">
+                        <strong><p>Macbook Pro 2019</p></strong>
+                        <a href=""><p class="boton">Comprar</p></a>
+                    </div>
+                </article>
+                <article class="col tv">
+                    <img src="img/productos/img-tv-samsung-smart.jpg">
+                    <div class="tofertas">
+                        <strong><p>TV LG 40 pulgadas</p></strong>
+                        <a href=""><p class="boton">Comprar</p></a>
+                    </div>
+                </article>
+                <article class="col samsung">
+                    <img src="img/productos/img-samsung-galaxy-s10.jpg">
+                    <div class="tofertas">
+                        <strong><p>Samsung Galaxy</p></strong>
+                        <a href=""><p class="boton">Comprar</p></a>
+                    </div>
+                </article>
+
+            </section> <br> <br> 
+            <h1>Productos Destacados</h1> <br>
+            <section class="destacados">
+
+                <article class="col smartphone">
+                    <img src="img/productos/img-samsung-galaxy-s10.jpg">
+                    <div class="tdestacados">
+                        <strong><p>Smartphone Samsung Galaxy</p></strong>
+                    </div>
+                </article>
+                <article class="col tvsmart">
+                    <img src="img/productos/img-tv-samsung-smart.jpg">
+                    <div class="tdestacados">
+                        <strong><p>TV Smart 40" Samsung</p></strong>
+                    </div>
+                </article>
+            </section> <br> <br>
+        </main> <hr>
+
+        <footer class="container-fluid">
+            <div class="row pie">
+                <div class="col seguinos infopie">
+                    <strong><p>Seguinos</p></strong>
+                    <a href=""><p><i class='bx bxl-facebook'></i>Facebook</p></a>
+                    <a href=""><p><i class='bx bxl-instagram' ></i>Instagram</p></a>
+                    <a href=""><p><i class='bx bxl-linkedin' ></i>Linkedin</p></a>
+                    <a href=""><p><i class='bx bxl-youtube' ></i>Youtube</p></a>
+                </div>
+                <div class="col otrosservicios infopie">
+                    <strong><p>Otros servicios</p></strong>
+                    <a href=""><p>MercadoLiebre pago</p></a>
+                    <a href=""><p>MercadoLiebre shops</p></a>
+                    <a href=""><p>Liebre Envios</p></a>
+                </div>
+                <div class="col trabajaconnosotros infopie">
+                    <strong><p>Trabaja con nosotros</p></strong>
+                    <div class="row email">
+                        <input type="email" name="email" placeholder="Ingresa tu email"></input> 
+                        <a href=""><p class="boton">Enviar</p></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    </body>
+</html>
