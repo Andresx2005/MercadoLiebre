@@ -44,7 +44,7 @@ article {
 }
 
 .ofertas article {
-    width: 20%;
+    width: 23%;
 }
 
 article img {
@@ -67,6 +67,7 @@ h1 {
 .tofertas {
     display: flex;
     justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 .boton {
@@ -225,82 +226,4 @@ footer {
 
 .tvsmart {
     margin-left: 50px;
-}
-
-@media all and (min-width: 1500px) {
-    a {
-        font-size: 22px;
-    }
-
-    label {
-        font-size: 26px;
-    }
-
-    .registrar {
-        font-size: 26px;
-    }
-    
-    article p {
-        font-size: 26px;
-    }
-
-    h1 {
-        font-size: 38px;
-    }
-
-    p {
-        font-size: 22px;
-    }
-}
-
-@media all and (min-width: 900px) and (max-width: 1500px) {
-    a {
-        font-size: 16px;
-    }
-
-    label {
-        font-size: 20px;
-    }
-
-    .registrar {
-        font-size: 20px;
-    }
-    
-    article p {
-        font-size: 20px;
-    }
-
-    h1 {
-        font-size: 32px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-}
-
-@media all and (max-width: 899px) {
-    a {
-        font-size: 8px;
-    }
-
-    label {
-        font-size: 12px;
-    }
-
-    .registrar {
-        font-size: 12px;
-    }
-    
-    article p {
-        font-size: 12px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 8px;
-    }
 }
