@@ -70,7 +70,7 @@ h1 {
     flex-wrap: nowrap;
 }
 
-.boton {
+button.comprar {
     color: white;
     background-color: rgb(40, 126, 184);
     padding: 5px;
@@ -79,7 +79,7 @@ h1 {
     transition: background-color .2s forwards;
 }
 
-.boton:hover {
+button:hover {
     background-color: rgb(16, 150, 16);
 }
 
